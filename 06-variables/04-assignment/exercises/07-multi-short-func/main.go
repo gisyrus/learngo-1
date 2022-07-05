@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Multi Short Func
 //
@@ -30,10 +30,12 @@ package main
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 	//
-
-	// THEN UNCOMMENT THE CODE BELOW
-
-	// fmt.Println(b)
+	// var a,b int
+	// // THEN UNCOMMENT THE CODE BELOW
+	// a,b = multi()
+	// _ = a
+	_, b := multi()
+	fmt.Println(b)
 }
 
 // multi is a function that returns multiple int values
