@@ -7,7 +7,6 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
 // ---------------------------------------------------------
 // EXERCISE: Use your own package
 //
@@ -28,5 +27,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	greet()
+	bye()
 	// call functions of the other files here
 }
